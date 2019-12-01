@@ -29,7 +29,7 @@ Crea un blog en html5 y css3 desde cero, como hemos visto en clase, cumpliendo l
 6. Microdatos(Persona) Opcional
 7. Al menos un canvas
 8. Al menos un svg
-9. 3. Un formulario con estilo. Este además debe cambiar su estilo cuando algún valor requerido no se ha introducido o no es válido.
+9. Un formulario con estilo. Este además debe cambiar su estilo cuando algún valor requerido no se ha introducido o no es válido.
 10. El blog debe poder adaptarse lo mejor posible a diferentes resoluciones y tamaños.
 11. También deben aparecer imágenes, a las cuales, tenéis que aplicarle también estilos. Podéis añadir audio y vídeo si lo creéis conveniente. 
 12. Usa normalize.
