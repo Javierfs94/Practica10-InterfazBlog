@@ -19,14 +19,16 @@
             <h2>El mejor blog de cocina</h2>
         </div>
         <div id="login">
-            <h3>Inicio sesión</h3>
-            <p><label for="usuario">Usuario: </label><input type="text" name="usuario" placeholder="Usuario">
-            </p>
-            <p><label for="pass">Pass: </label><input type="pass" name="pass" placeholder="Contraseña"></p>
-            <p><button type="submit">Enviar</button></p>
+            <form action="#" method="post">
+                <h3>Inicio sesión</h3>
+
+                <p><label for="usuario">Usuario: </label><input type="text" name="usuario" placeholder="Usuario" required>
+                </p>
+                <p><label for="pass">Pass: </label><input type="pass" name="pass" placeholder="Contraseña" required></p>
+                <p><button type="submit">Enviar</button></p>
+            </form>
+
         </div>
-
-
     </header>
 
     <nav>
@@ -160,13 +162,18 @@
                 </p>
                 <p><a href="https://disfrutandodelacocina.com/">Disfrutando de la cocina</a>
                 </p>
-                <p><a href="https://yhoyquecomemos.com/">Y hoy que comemos</a>
+                <p><a href="https://comerconarte.com/">Comer con arte</a>
                 </p>
             </div>
             <div id="publicidad">
-                <div><img src="img/logo-burger-king.png" alt="Logo de publicidad del restaurante Burger King">
+                <p>Nuestros patrocinadores</p>
+                <div>
+                    <a href="https://www.burgerking.es/" target="__blank"> <img src="img/logo-burger-king.png" alt="Logo de publicidad del restaurante Burger King">
+                    </a>
                 </div>
-                <div><img src="img/logo-kfc.png" alt="Logo de publicidad del restaurante KFC">
+                <div>
+                    <a href="https://kfc.es/" target="__blank"><img src="img/logo-kfc.png" alt="Logo de publicidad del restaurante KFC">
+                    </a>
                 </div>
             </div>
         </aside>
