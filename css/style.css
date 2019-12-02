@@ -1,12 +1,11 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     display: grid;
     grid-template-columns: 80% 20%;
-    background-color: rgb(250, 205, 7);
-    opacity: 0.9;
+    background-image: linear-gradient(rgb(230, 255, 1), rgb(230, 191, 20));
 }
 
 #logo {
@@ -33,14 +32,18 @@ header {
 nav {
     list-style: none;
     text-align: center;
-    background-color: rgb(238, 198, 17);
-    opacity: 0.8;
+    background-image: linear-gradient(rgb(230, 255, 1), rgb(230, 191, 20));
 }
 
 #buscador {
     text-align: right;
     padding: 8px;
     margin: 5px;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 nav>ul>li {
@@ -54,6 +57,7 @@ nav li a {
     padding: 10px 10px;
     margin: 5px;
     display: block;
+    border-radius: 20px;
 }
 
 nav li a:hover {
@@ -155,12 +159,35 @@ aside {}
     padding: 20px;
     width: 200px;
     height: 200px;
+    position: relative;
+    animation-name: movimiento;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movimiento {
+    from {
+        top: 150px;
+    }
+    to {
+        bottom: 10px;
+    }
+}
+
+#publicidad>div>a>img:hover {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
 }
 
 footer {
     border: solid 1px black;
-    background-color: rgb(238, 198, 17);
-    opacity: 0.8;
+    background-image: linear-gradient( rgb(230, 191, 20), rgb(230, 255, 1));
 }
 
 #autor-redes {
