@@ -34,7 +34,7 @@ Crea un blog en html5 y css3 desde cero, como hemos visto en clase, cumpliendo l
 11. También deben aparecer imágenes, a las cuales, tenéis que aplicarle también estilos. Podéis añadir audio y vídeo si lo creéis conveniente. 
 12. Usa normalize.
 13. Evaluación de la práctica:
-Los puntos anteriores son requisitos mínimos para superar la práctica.
-Se valorará muchísimo la originalidad y por supuesto, una muy buena composición y equilibrio visual, buena presencia, correcta combinación de colores, agradables animaciones,....
-Se valorará de forma positiva la compatibilidad de vuestro blog en diferentes navegadores.
-Es imprescindible que sepáis defender vuestro código ante cualquier pregunta sobre vuestra práctica. Sino sabéis contestar cualquier pregunta, doy por supuesto que no lo habéis hecho vosotros o está copiada, y la práctica, por lo tanto, valorada como no superada.
+- Los puntos anteriores son requisitos mínimos para superar la práctica.
+- Se valorará muchísimo la originalidad y por supuesto, una muy buena composición y equilibrio visual, buena presencia, correcta combinación de colores, agradables animaciones,....
+- Se valorará de forma positiva la compatibilidad de vuestro blog en diferentes navegadores.
+- Es imprescindible que sepáis defender vuestro código ante cualquier pregunta sobre vuestra práctica. Sino sabéis contestar cualquier pregunta, doy por supuesto que no lo habéis hecho vosotros o está copiada, y la práctica, por lo tanto, valorada como no superada.
