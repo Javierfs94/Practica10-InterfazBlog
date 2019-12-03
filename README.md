@@ -1,8 +1,8 @@
 # Practica10-InterfazBlog
+
+GitHub Page: https://javierfs94.github.io/Practica10-InterfazBlog
+
 Ejercicio de la práctica 10 del módulo de Diseño de Interfaces Web (DIWEB), de 2º de DAW.
-
-GitHub Page: GitHub page: https://javierfs94.github.io/Practica10-InterfazBlog
-
 
 Crea un blog en html5 y css3 desde cero, como hemos visto en clase, cumpliendo los siguientes requisitos:
 1. Aplicando correctamente las etiquetas html5, estructura y semántica. Debe ser diferente al blog que hemos creado en clase. Obligatoriamente deben aparecer las etiquetas:
