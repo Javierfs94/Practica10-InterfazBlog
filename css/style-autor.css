@@ -1,0 +1,13 @@
+#main-autor {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+#autor {
+    text-align: center;
+}
+
+#autor>img {
+    width: 350px;
+    border-radius: 50%;
+}

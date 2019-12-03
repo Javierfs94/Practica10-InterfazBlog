@@ -141,6 +141,8 @@ article p {
     text-align: center;
 }
 
+aside {}
+
 #enlaces-interes {
     padding: 5px;
     text-align: justify;
@@ -203,12 +205,10 @@ footer {
 }
 
 #redes-sociales {
-    padding: 20px;
-    margin-right: 10px;
     text-align: right;
 }
 
-#redes-sociales>a>img:hover {
+#redes-sociales>img:hover {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
