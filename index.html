@@ -9,12 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/reloj.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.png" type="png" sizes="16x16">
     <title>Food Blog</title>
 </head>
 
-<body>
+<body onload="reloj()">
     <header>
         <div id="logo">
             <h1>Food Blog</h1>
@@ -156,7 +157,9 @@
                 </div>
                 <div></div>
             </div>
+
         </main>
+
         <aside>
             <div id="enlaces-interes">
                 <p>Páginas relacionadas</p>
@@ -166,6 +169,13 @@
                 </p>
                 <p><a href="https://comerconarte.com/">Comer con arte</a>
                 </p>
+            </div>
+
+            <div id="reloj">
+                <h2>Reloj</h2>
+                <form name="form_reloj">
+                    <input type="text" name="reloj" size="10">
+                </form>
             </div>
 
             <div id="publicidad">
