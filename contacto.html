@@ -24,12 +24,13 @@
         <div id="login">
             <form action="" method="post">
                 <h3>Inicio sesión</h3>
-                <p><label for="usuario">Usuario: </label><input type="text" name="usuario" placeholder="Usuario" required>
+                <p>
+                    </label><input type="text" name="usuario" placeholder="Usuario" required>
                 </p>
-                <p><label for="pass">Pass: </label><input type="pass" name="pass" placeholder="Contraseña" required></p>
+                <p>
+                    </label><input type="pass" name="pass" placeholder="Contraseña" required></p>
                 <p><button type="submit">Enviar</button></p>
             </form>
-
         </div>
     </header>
 
@@ -49,15 +50,27 @@
         <div id="formulario-contacto">
             <h2>Contáctanos</h2>
             <form name="contacto" action="" method="post">
-                <div><label for="">Nombre: </label>
-                    <input type="text" name="nombre" required></div>
-                <div><label for="">Pregunta: </label>
-                    <input type="text" name="pregunta" required></div>
-                <div><label for="">Email: </label>
-                    <input type="email" name="email" required></div>
-                <div><label for="">Descripción: </label>
-                    <textarea name="descripcion" cols="30" rows="10" required></textarea>
-                </div>
+
+                <label class="field" for="nombre"> 
+                        <span class="span-text">Nombre:</span>
+                        <input type="text" name="nombre" id="nombre" value="" required>
+                    </label>
+
+                <label class="field" for="pregunta">
+                            <span class="span-text">Pregunta:</span>
+                            <input type="text" name="pregunta" id="pregunta" value="" required>
+                    </label>
+
+                <label class="field" for="email">
+                        <span class="span-text">Email:</span>
+                        <input type="email" name="email" id="email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
+                    </label>
+
+                <label class="field" for="descripcion">
+                            <span class="span-text">Descripción:</span>
+                            <textarea name="descripcion" id="descripcion" value="" cols="30" rows="10" required></textarea>
+                    </label>
+
                 <button type="submit">Enviar</button>
             </form>
         </div>

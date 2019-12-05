@@ -1,5 +1,4 @@
 function reloj() {
-
     momento = new Date()
     hora = momento.getHours()
     minuto = momento.getMinutes()
