@@ -9,17 +9,27 @@
     text-align: center;
 }
 
-#formulario-contacto>form>div>label>input {
+#formulario-contacto>form>label>input {
     margin: 10px;
 }
 
-#formulario-contacto>form>div>label>input:focus {
+#formulario-contacto>form>label>input:focus {
     transform: scale(1.25);
-    background-color: rgb(248, 9, 9);
+    background-color: rgb(9, 248, 236);
 }
 
-#formulario-contacto>form>div>label>input:valid {
+#formulario-contacto>form>label>input:valid {
     background-color: rgb(24, 233, 24);
+    color: black;
+}
+
+#formulario-contacto>form>label>input:invalid {
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+#formulario-contacto>form>label>input:required {
+    background-color: rgb(248, 232, 1);
     color: black;
 }
 
